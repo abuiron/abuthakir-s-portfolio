@@ -8,7 +8,7 @@ import workImgSix from "./work/workImgSix.jpg"
 import workImgSeven from "./work/workImgSeven.jpeg"
 import workImgEight from "./work/workImgEight.jpg"
 import workImg9 from "./work/workImg9.jpg"
-import workImg10 from "./work/workImg10.jpeg"
+import workImg10 from "./work/workImg10.jpg"
 import workImg11 from "./work/workImg11.jpeg"
 import workImg12 from "./work/workImg12.png"
 import workImg13 from "./work/workImg13.png"
@@ -22,6 +22,7 @@ import blogImg7 from "./blog/blogImg7.jpg";
 import blogImg8 from "./blog/blogImg8.jpg";
 import blogImg9 from "./blog/blogImg9.jpg";
 import blogImg10 from "./blog/blogImg10.jpg"
+import blogImg11 from "./blog/blogImg11.png"
 
 export { 
     bannerImg,
@@ -47,5 +48,6 @@ export {
     blogImg7,
     blogImg8,
     blogImg9,
-    blogImg10
+    blogImg10,
+    blogImg11
 };

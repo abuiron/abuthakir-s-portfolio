@@ -1,6 +1,17 @@
 import React from "react";
 import Title from "../home/Title";
-import { blogImgOne, blogImgTwo, blogImgThree, blogImg4, blogImg5, blogImg6, blogImg7, blogImg8, blogImg9, blogImg10 } from "../../assets";
+import { blogImgOne, 
+  blogImgTwo, 
+  blogImgThree, 
+  blogImg4, 
+  blogImg5, 
+  blogImg6, 
+  blogImg7, 
+  blogImg8, 
+  blogImg9, 
+  blogImg10,
+  blogImg11
+             } from "../../assets";
 import BlogCard from "./BlogCard";
 
 const Blog = () => {
@@ -76,6 +87,12 @@ const Blog = () => {
             title="Gold Medal"
             subTitle="Won 1st Prize for Web Desighning"
             category="State level symposium"
+            />
+          <BlogCard
+            image={blogImg10}
+            title="Present"
+            subTitle="100+ problem solved in Codekata platform"
+            category="Problem Solving"
             />
         </div>
       </div>

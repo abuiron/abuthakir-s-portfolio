@@ -171,6 +171,12 @@ const Skills = () => {
             </span>
             Thumbnail Making
           </li>
+          <li className="flex items-center gap-4 text-textColor">
+            <span className="text-designColor text-lg">
+              <GiCheckMark />
+            </span>
+            Products Poster designing
+          </li>
         </ul>
       </div>
       {/* =============== Design and Languages End here ===================== */}
