@@ -88,12 +88,14 @@ const Blog = () => {
             subTitle="Won 1st Prize for Web Desighning"
             category="State level symposium"
             />
+            <a href="https://www.guvi.in/code-kata/">
           <BlogCard
-            image={blogImg10}
+            image={blogImg11}
             title="Present"
             subTitle="100+ problem solved in Codekata platform"
             category="Problem Solving"
             />
+            </a>
         </div>
       </div>
     </div>
