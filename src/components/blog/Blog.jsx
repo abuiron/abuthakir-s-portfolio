@@ -22,7 +22,51 @@ const Blog = () => {
       <Title title="My" subTitle="Feats" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
+        <BlogCard
+            image={blogImgTwo}
+            title="Present"
+            subTitle="Looking for a MERN Stack Developer Role"
+            category="Job Seeking"
+            />
+
           <BlogCard
+            image={blogImg4}
+            title="07/2024"
+            subTitle="MERN Stack Development Internship"
+            category="Zidio Development pvt ltd"
+            />
+          
+          <BlogCard
+            image={blogImg5}
+            title="03/2024"
+            subTitle="Python Development Internship"
+            category="Techno Hacks"
+            />
+          
+          <BlogCard
+            image={blogImg6}
+            title="12/2023"
+            subTitle="Web Development Internship"
+            category="The Website Makers"
+            />
+          <BlogCard
+            image={blogImg10}
+            title="Gold Medal"
+            subTitle="Won 1st Prize for Web Desighning"
+            category="State level symposium"
+            />
+            <a href="https://www.guvi.in/code-kata/">
+          <BlogCard
+            image={blogImg11}
+            title="Present"
+            subTitle="100+ problem solved in Codekata platform"
+            category="Problem Solving"
+            />
+            </a>
+        </div>
+        <div className="px-6" >
+          
+        <BlogCard
             image={blogImgOne}
             title="Present"
             subTitle="Currently working on New Projects"
@@ -71,50 +115,6 @@ const Blog = () => {
             category="Course"
             />
 
-
-        </div>
-        <div className="px-6" >
-          <BlogCard
-            image={blogImgTwo}
-            title="Present"
-            subTitle="Looking for a MERN Stack Developer Role"
-            category="Job Seeking"
-            />
-
-          <BlogCard
-            image={blogImg4}
-            title="07/2024"
-            subTitle="MERN Stack Development Internship"
-            category="Zidio Development pvt ltd"
-            />
-          
-          <BlogCard
-            image={blogImg5}
-            title="03/2024"
-            subTitle="Python Development Internship"
-            category="Techno Hacks"
-            />
-          
-          <BlogCard
-            image={blogImg6}
-            title="12/2023"
-            subTitle="Web Development Internship"
-            category="The Website Makers"
-            />
-          <BlogCard
-            image={blogImg10}
-            title="Gold Medal"
-            subTitle="Won 1st Prize for Web Desighning"
-            category="State level symposium"
-            />
-            <a href="https://www.guvi.in/code-kata/">
-          <BlogCard
-            image={blogImg11}
-            title="Present"
-            subTitle="100+ problem solved in Codekata platform"
-            category="Problem Solving"
-            />
-            </a>
         </div>
       </div>
     </div>
