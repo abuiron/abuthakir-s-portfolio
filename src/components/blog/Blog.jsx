@@ -65,7 +65,7 @@ const Blog = () => {
             </a>
         </div>
         <div className="px-6" >
-          
+
         <BlogCard
             image={blogImgOne}
             title="Present"
@@ -95,18 +95,19 @@ const Blog = () => {
             />
 
           <BlogCard
+           image={blogImg12}
+           title="10/2023"
+           subTitle="Completed Web Development course in IBM-SkillsBuild"
+           category="Course"
+           />
+           
+          <BlogCard
            image={blogImg13}
            title="04/2023"
            subTitle="Completed Network Engineer course in LIVEWIRE"
            category="Course"
           />
 
-          <BlogCard
-           image={blogImg12}
-           title="10/2023"
-           subTitle="Completed Web Development course in IBM-SkillsBuild"
-           category="Course"
-           />
 
           <BlogCard
             image={blogImg9}
