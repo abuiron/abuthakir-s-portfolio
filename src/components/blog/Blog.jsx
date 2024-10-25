@@ -10,7 +10,9 @@ import { blogImgOne,
   blogImg8, 
   blogImg9, 
   blogImg10,
-  blogImg11
+  blogImg11,
+  blogImg12,
+  blogImg13
              } from "../../assets";
 import BlogCard from "./BlogCard";
 
@@ -47,12 +49,29 @@ const Blog = () => {
             subTitle="Completed Python Development course in LIVEWIRE"
             category="Course"
             />
+
+          <BlogCard
+           image={blogImg13}
+           title="04/2023"
+           subTitle="Completed Network Engineer course in LIVEWIRE"
+           category="Course"
+          />
+
+          <BlogCard
+           image={blogImg12}
+           title="10/2023"
+           subTitle="Completed Web Development course in IBM-SkillsBuild"
+           category="Course"
+           />
+
           <BlogCard
             image={blogImg9}
             title="11/2021"
             subTitle="Completed Network Engineer course in LIVEWIRE"
             category="Course"
             />
+
+
         </div>
         <div className="px-6" >
           <BlogCard

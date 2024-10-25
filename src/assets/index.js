@@ -23,6 +23,8 @@ import blogImg8 from "./blog/blogImg8.jpg";
 import blogImg9 from "./blog/blogImg9.jpg";
 import blogImg10 from "./blog/blogImg10.jpg"
 import blogImg11 from "./blog/blogImg11.png"
+import blogImg12 from "./blog/blogImg12.jpg"
+import blogImg13 from "./blog/blogImg13.jpg"
 
 export { 
     bannerImg,
@@ -49,5 +51,8 @@ export {
     blogImg8,
     blogImg9,
     blogImg10,
-    blogImg11
+    blogImg11,
+    blogImg12,
+    blogImg13
 };
+
