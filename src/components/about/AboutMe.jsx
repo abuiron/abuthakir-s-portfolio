@@ -27,7 +27,7 @@ const AboutMe = () => {
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Address:</span>
-            Kadayanallur
+            Kadayanallur, TamilNadu
           </li>
         </ul>
       </div>
