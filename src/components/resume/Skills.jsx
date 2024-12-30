@@ -122,6 +122,13 @@ const Skills = () => {
               <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
+          {/* Java */}
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Java</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[75%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
           {/* mONGOdB */}
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">MongoDB</p>
@@ -149,6 +156,18 @@ const Skills = () => {
               <GiCheckMark />
             </span>
             Website Developing
+          </li>
+          <li className="flex items-center gap-4 text-textColor">
+            <span className="text-designColor text-lg">
+              <GiCheckMark />
+            </span>
+            LLD Design
+          </li>
+          <li className="flex items-center gap-4 text-textColor">
+            <span className="text-designColor text-lg">
+              <GiCheckMark />
+            </span>
+            Project completion
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">

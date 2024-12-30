@@ -35,7 +35,7 @@ const Education = () => {
         <ResumeTitle title="Education" icon={<GiGraduateCap />} />
         <ResumeCard
           badge="2021 - 2024"
-          title="Sriram Nallamani yadava college of arts and science"
+          title="Sri Ram Nallamani yadava college of arts and science"
           subTitle="Bsc Computer science"
           des="I Hold a Bachelor's degree in Computer Science under the university of Manonmaniam sundaranar University!"
         />

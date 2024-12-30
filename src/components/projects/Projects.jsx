@@ -33,7 +33,7 @@ const Projects = () => {
           <a href="https://github.com/abuiron/job-listing-portal-app">
           <ProjectsCard
             title="Job Listing Portal"
-            category="web Application"
+            category="Web Application"
             image={workImgOne}
           />
           </a>
@@ -46,13 +46,13 @@ const Projects = () => {
           </a>
           <ProjectsCard
             title="Shopy any"
-            category="E-commerce"
+            category="E-Commerce"
             image={workImgFive}
           />
           <a href="https://github.com/abuiron/calculator">
           <ProjectsCard
             title="Calci"
-            category="Calculator web Application"
+            category="Calculator Web Application"
             image={workImg11}
           />
           </a>
@@ -60,13 +60,13 @@ const Projects = () => {
         <div className="px-6">
           <ProjectsCard
             title="Zazh"
-            category="E-commerce"
+            category="E-Commerce"
             image={workImgFour}
           />
           <a href="https://github.com/abuiron/React-shopping-cart">
           <ProjectsCard
             title="Online Shopping"
-            category="E-commerce"
+            category="E-Commerce"
             image={workImgSix}
           />
           </a>
@@ -80,33 +80,33 @@ const Projects = () => {
           <a href="https://github.com/abuiron/Alexa-Voice-Assist-Clone">
           <ProjectsCard
             title="Alexa Voice Assistant Clone"
-            category="Python & libraries"
+            category="Python & Libraries"
             image={workImg9}
           />
           </a>
           <a href="https://github.com/abuiron/CRUD-Project">
           <ProjectsCard
             title="Employee Management System"
-            category="web Application"
+            category="Web Application"
             image={workImg10}
           />
           </a>
           <ProjectsCard
             title="DogWeb"
-            category="Blog website"
+            category="Blog Website"
             image={workImgSeven}
           />
           <a href="https://github.com/abuiron/stop-watch-project">
           <ProjectsCard
             title="StopWatch"
-            category="web Application"
+            category="Web Application"
             image={workImg12}
           />
           </a>
           <a href="https://github.com/abuiron/abuthakir-s-portfolio">
           <ProjectsCard
             title="My Portfolio"
-            category="Portfolio website"
+            category="Portfolio Website"
             image={workImg13}
           />
           </a>
