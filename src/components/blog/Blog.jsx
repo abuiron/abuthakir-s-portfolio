@@ -12,7 +12,9 @@ import { blogImgOne,
   blogImg10,
   blogImg11,
   blogImg12,
-  blogImg13
+  blogImg13,
+  blogImg14,
+  blogImg15
              } from "../../assets";
 import BlogCard from "./BlogCard";
 
@@ -25,7 +27,7 @@ const Blog = () => {
         <BlogCard
             image={blogImgTwo}
             title="Present"
-            subTitle="Looking for a MERN Stack Developer Role"
+            subTitle="Looking for a Software Developer Role"
             category="Job Seeking"
             />
 
@@ -53,13 +55,29 @@ const Blog = () => {
             image={blogImg10}
             title="Gold Medal"
             subTitle="Won 1st Prize for Web Desighning"
-            category="State level symposium"
+            category="State Level Symposium"
             />
             <a href="https://www.guvi.in/code-kata/">
           <BlogCard
             image={blogImg11}
             title="Present"
             subTitle="100+ problem solved in Codekata platform"
+            category="Problem Solving"
+            />
+            </a>
+            <a href="https://www.geeksforgeeks.org">
+          <BlogCard
+            image={blogImg14}
+            title="Present"
+            subTitle="Maintaining Streaks from Geeks For Geeks"
+            category="Problem Solving"
+            />
+            </a>
+            <a href="https://leetcode.com">
+          <BlogCard
+            image={blogImg15}
+            title="Present"
+            subTitle="Maintaining Streaks from Leetcode"
             category="Problem Solving"
             />
             </a>
